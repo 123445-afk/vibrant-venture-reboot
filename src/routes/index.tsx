@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Check, Megaphone, PhoneCall, CalendarCheck, Sparkles } from "lucide-react";
 import heroImg from "@/assets/hero-dental.webp";
 import consultImg from "@/assets/clinic-consultation.webp";
-import daxLogoDark from "@/assets/dax-logo-dark.png";
+
 import { SiteHeader, BOOKING_URL } from "@/components/SiteHeader";
 import { FaqItem } from "@/components/FaqItem";
 
