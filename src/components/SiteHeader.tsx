@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import daxLogoLight from "@/assets/dax-logo-light.jpg";
 
 const links = [
   { href: "#how", label: "How It Works" },
@@ -18,10 +19,11 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <a href="#top" className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-foreground text-background font-serif text-base font-bold">
-            DM
-          </span>
-          <span className="font-semibold tracking-tight">Dax Media</span>
+          <img
+            src={daxLogoLight}
+            alt="Dax Media logo"
+            className="h-10 w-auto object-contain"
+          />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
