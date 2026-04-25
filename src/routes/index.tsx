@@ -348,7 +348,7 @@ function FinalCta() {
 function Footer() {
   return (
     <footer className="border-t border-border bg-background">
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row bg-black">
         <div className="flex items-center gap-2">
           <span className="flex h-8 w-8 items-center justify-center rounded-md bg-foreground text-background font-serif text-sm font-bold">
             DM
