@@ -348,15 +348,11 @@ function FinalCta() {
 /* -------------------- FOOTER -------------------- */
 function Footer() {
   return (
-    <footer className="border-t border-border bg-background">
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row bg-black">
-        <div className="flex items-center gap-2">
-          <img
-            src={daxLogoDark}
-            alt="Dax Media logo"
-            className="h-10 w-auto object-contain"
-          />
-        </div>
+    <footer className="w-full border-t border-border bg-black">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row">
+        <span className="font-serif text-2xl font-semibold tracking-tight text-white">
+          Dax Media
+        </span>
         <p className="text-xs text-white/70">
           © {new Date().getFullYear()} Dax Media. All rights reserved.
         </p>
